@@ -1,0 +1,83 @@
+body {
+  background: #f6f8fa;
+  font-family: 'Noto Sans KR', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 420px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+input[type='text'] {
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+#result-message {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#progress {
+  margin-top: 10px;
+  color: #888;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+.btn-large {
+  width: 100%;
+  font-size: 18px;
+  padding: 16px;
+}
+
+
+.btn-small {
+  width: auto;
+  font-size: 14px;
+  padding: 8px 16px;
+  background-color: #6c757d;
+}
+#bike-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

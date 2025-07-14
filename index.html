@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>자전거 브랜드 퀴즈</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>퓌즈</h1>
+
+
+    <div id="quiz-section">
+      <img id="bike-image" src="" alt="자전거 이미지" />
+      <input
+        type="text"
+        id="answer-input"
+        placeholder="브랜드를 입력하세요" autofocus/>
+      <p id="result-message"></p>
+      <p id="progress">0 / 10</p>
+      <button id="submit-btn" class="btn-large">제출</button>
+      <button id="show-answer-btn" class="btn-small">정답 보기</button>
+    </div>
+
+    <div id="result-section" class="hidden">
+      <h2>퀴즈 완료!</h2>
+      <p id="score-text"></p>
+      <button id="restart-btn">다시 시작</button>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
